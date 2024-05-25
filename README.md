@@ -4,7 +4,7 @@
 
 This gem generates a mindmap chart to document your interactors flow on your Ruby on Rails application.
 
-![example](https://github.com/martinnicolas/interactors_mindmap/spec/fixtures/assets/test.png "Example")
+![example](https://raw.githubusercontent.com/martinnicolas/interactors_mindmap/master/spec/fixtures/assets/test.png)
 
 ## Installation
 
