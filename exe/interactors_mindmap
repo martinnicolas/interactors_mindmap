@@ -1,0 +1,4 @@
+#!/usr/bin/env bash
+require 'interactors_mindmap'
+
+InteractorsMindmap::Cli.new(ARGV).run
