@@ -31,6 +31,7 @@ By default running `interactors_mindmap` will generate `interactors.md` and `int
 
 - `interactors_mindmap --md`: This will generate only the `interactors.md` file.
 - `interactors_mindmap --html`: This will generate only the `interactors.html` file.
+- `interactors_mindmap --version`: This will show the gem version.
 - `interactors_mindmap --help`: This will show a usage message information.
 
 ## Development
