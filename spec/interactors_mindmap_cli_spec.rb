@@ -24,4 +24,16 @@ RSpec.describe InteractorsMindmap::Cli do
       InteractorsMindmap::Cli.new(["--help"]).run
     end.to output(HELP_TEXT).to_stdout
   end
+
+  it "run cli with --version option" do
+    expect do
+      InteractorsMindmap::Cli.new(["--version"]).run
+    end.to output("#{InteractorsMindmap::VERSION}\n").to_stdout
+  end
+
+  it "run cli with wrong argument option" do
+    expect do
+      InteractorsMindmap::Cli.new(["-a"]).run
+    end.to output(HELP_TEXT).to_stdout
+  end
 end

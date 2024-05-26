@@ -18,3 +18,7 @@ Layout/ArgumentAlignment:
 Metrics/MethodLength:
   Enabled: true
   Max: 30
+
+Metrics/BlockLength:
+  Enabled: true
+  Max: 30

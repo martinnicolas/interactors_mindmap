@@ -30,6 +30,10 @@ module InteractorsMindmap
         generate_html_doc
       when "--help"
         help
+      when "--version"
+        version
+      else
+        help
       end
     end
 
@@ -51,6 +55,10 @@ module InteractorsMindmap
 
     def help
       puts HELP_TEXT
+    end
+
+    def version
+      puts InteractorsMindmap::VERSION
     end
   end
 end
