@@ -22,7 +22,7 @@ module InteractorsMindmap
     def run
       first_argument = argv.first
       case first_argument
-      when ""
+      when "--all"
         generate_all_docs
       when "--md"
         generate_md_doc

@@ -1,9 +1,9 @@
 # frozen_string_literal: true
 
 RSpec.describe InteractorsMindmap::Cli do
-  it "run cli with no args files option" do
+  it "run cli with --all file option" do
     expect do
-      InteractorsMindmap::Cli.new([""]).run
+      InteractorsMindmap::Cli.new(["--all"]).run
     end.to output("#{MD_FILE_GENERATED_MESSAGE}\n#{HTML_FILE_GENERATED_MESSAGE}\n").to_stdout
   end
 

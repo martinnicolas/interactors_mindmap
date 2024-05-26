@@ -1,4 +1,8 @@
-#!/usr/bin/env bash
-require 'interactors_mindmap'
+#!/usr/bin/env ruby
+# frozen_string_literal: true
+
+require_relative "../lib/interactors_mindmap"
+
+ARGV << "--all" if ARGV.empty?
 
 InteractorsMindmap::Cli.new(ARGV).run
