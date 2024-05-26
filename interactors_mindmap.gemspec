@@ -8,7 +8,7 @@ Gem::Specification.new do |spec|
   spec.authors = ["martinnicolas"]
   spec.email = ["ttincho77@gmail.com"]
 
-  spec.summary = "Mindmap for Interactors."
+  spec.summary = "Mindmap chart for Interactors."
   spec.description = "Generate mindmap chart for Interactors."
   spec.homepage = "https://github.com/martinnicolas/interactors_mindmap"
   spec.license = "MIT"
@@ -19,6 +19,7 @@ Gem::Specification.new do |spec|
   spec.metadata["homepage_uri"] = spec.homepage
   spec.metadata["source_code_uri"] = "https://github.com/martinnicolas/interactors_mindmap"
   spec.metadata["changelog_uri"] = "https://github.com/martinnicolas/interactors_mindmap/CHANGELOG.md"
+  spec.metadata['bug_tracker_uri'] = 'https://github.com/martinnicolas/interactors_mindmap/issues'
 
   # Specify which files should be added to the gem when it is released.
   # The `git ls-files -z` loads the files in the RubyGem that have been added into git.
@@ -32,7 +33,6 @@ Gem::Specification.new do |spec|
   spec.executables = spec.files.grep(%r{\Aexe/}) { |f| File.basename(f) }
   spec.require_paths = ["lib"]
 
-  # Uncomment to register a new dependency of your gem
   spec.add_development_dependency "simplecov"
 
   # For more information and examples about making a new gem, check out our
