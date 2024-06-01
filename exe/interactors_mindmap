@@ -3,6 +3,6 @@
 
 require_relative "../lib/interactors_mindmap"
 
-ARGV << "--all" if ARGV.empty?
+ARGV << "--help" if ARGV.empty?
 
 InteractorsMindmap::Cli.new(ARGV).run
