@@ -28,7 +28,7 @@ By default running `interactors_mindmap`, without arguments, will show you the u
 - `interactors_mindmap --md`: This will generate only the `interactors.md` file.
 - `interactors_mindmap --html`: This will generate only the `interactors.html` file.
 - `interactors_mindmap --version`: This will show the gem version.
-- `interactors_mindmap --help`: This will show a usage message information.
+- `interactors_mindmap --help`: This will show a usage information message.
 
 Open `interactors.html` to see your interactors mindmap chart on your browser. Alternatively, if you use Visual Studio Code IDE you can install `markmap` extension to open `interactors.md` on the IDE and visualize your interactors chart.
 

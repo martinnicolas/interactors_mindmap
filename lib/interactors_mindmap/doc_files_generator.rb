@@ -52,6 +52,10 @@ module InteractorsMindmap
                 width: 100%;
                 height: 100vh;
               }
+              body {
+                background-color: #181818;
+                color: #FFFFFF;
+              }
             </style>
             <script src="https://cdn.jsdelivr.net/npm/markmap-autoloader@0.16"></script>
           </head>
