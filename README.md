@@ -18,11 +18,11 @@ If bundler is not being used to manage dependencies, install the gem by executin
 
 ## Usage
 
-Run `interactors_mindmap` on the root path of your RoR application to generate mindmap chart. This will show you the usage instructions.
+Run `interactors_mindmap` on the root path of your RoR application to generate mindmap chart.
 
 ### Running with options
 
-By default running `interactors_mindmap`, without arguments, will show you the usage instructions, you can use different options to run `interactors_mindmap` and generate only the files what you need:
+By default running `interactors_mindmap`, without arguments, will show you the usage instructions. You can use different options to run `interactors_mindmap` and generate only the files what you need:
 
 - `interactors_mindmap --all`: This will generate the `interactors.md` and `interactors.html` files.
 - `interactors_mindmap --md`: This will generate only the `interactors.md` file.
