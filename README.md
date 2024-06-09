@@ -18,11 +18,11 @@ If bundler is not being used to manage dependencies, install the gem by executin
 
 ## Usage
 
-Run `interactors_mindmap` on the root path of your RoR application to generate mindmap chart.
+Run `interactors_mindmap` on the root path of your RoR application to generate an interactors mindmap chart.
 
 ### Running with options
 
-By default running `interactors_mindmap`, without arguments, will show you the usage instructions. You can use different options to run `interactors_mindmap` and generate only the files what you need:
+By default running `interactors_mindmap`, without arguments, will show you the usage information message. You can use different options to run `interactors_mindmap` and generate only the files what you need:
 
 - `interactors_mindmap --all`: This will generate the `interactors.md` and `interactors.html` files.
 - `interactors_mindmap --md`: This will generate only the `interactors.md` file.
@@ -30,7 +30,8 @@ By default running `interactors_mindmap`, without arguments, will show you the u
 - `interactors_mindmap --version`: This will show the gem version.
 - `interactors_mindmap --help`: This will show a usage information message.
 
-Open `interactors.html` to see your interactors mindmap chart on your browser. Alternatively, if you use Visual Studio Code IDE you can install `markmap` extension to open `interactors.md` on the IDE and visualize your interactors chart.
+This gem use [https://markmap.js.org/](https://markmap.js.org/) to generate your interactors mindmap chart.
+Open `interactors.html` generated file to see your interactors mindmap chart on your browser. Alternatively, if you use Visual Studio Code IDE you can install [markmap](https://marketplace.visualstudio.com/items?itemName=gera2ld.markmap-vscodemd`) extension to open `interactors.md` generated file on the IDE.
 
 ## Development
 
