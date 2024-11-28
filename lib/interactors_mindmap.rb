@@ -34,7 +34,7 @@ module InteractorsMindmap
       return
     end
 
-    InteractorsMindmap::DocFilesGenerator.generate_md_file(interactor_names: interactor_names)
+    InteractorsMindmap::DocFilesGenerator.generate_md_file(interactor_names:)
 
     puts MD_FILE_GENERATED_MESSAGE
   end
@@ -45,7 +45,7 @@ module InteractorsMindmap
       return
     end
 
-    InteractorsMindmap::DocFilesGenerator.generate_html_file(interactor_names: interactor_names)
+    InteractorsMindmap::DocFilesGenerator.generate_html_file(interactor_names:)
 
     puts HTML_FILE_GENERATED_MESSAGE
   end

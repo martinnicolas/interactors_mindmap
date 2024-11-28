@@ -14,11 +14,11 @@ module InteractorsMindmap
     end
 
     def self.generate_md_file(interactor_names:)
-      new(interactor_names: interactor_names).generate_md_file
+      new(interactor_names:).generate_md_file
     end
 
     def self.generate_html_file(interactor_names:)
-      new(interactor_names: interactor_names).generate_html_file
+      new(interactor_names:).generate_html_file
     end
 
     def generate_md_file
@@ -75,7 +75,7 @@ module InteractorsMindmap
         </html>
       HTML
 
-      File.open(HTML_FILE_NAME, "w") { |f| f.write page }
+      File.write(HTML_FILE_NAME, page)
     end
   end
 end

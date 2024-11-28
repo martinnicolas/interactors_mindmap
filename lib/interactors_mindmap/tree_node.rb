@@ -12,22 +12,22 @@ module InteractorsMindmap
 
     def add_child(child_data:, parent: nil)
       if parent.nil?
-        root.add_child(child_data: child_data)
+        root.add_child(child_data:)
       else
-        parent.add_child(child_data: child_data)
+        parent.add_child(child_data:)
       end
     end
 
     def add_node_child(node:, parent: nil)
       if parent.nil?
-        root.add_node_child(node: node)
+        root.add_node_child(node:)
       else
-        parent.add_node_child(node: node)
+        parent.add_node_child(node:)
       end
     end
 
     def search_node(data:)
-      root.search_node(data: data)
+      root.search_node(data:)
     end
 
     def reorder_with_recursion!
@@ -98,7 +98,7 @@ module InteractorsMindmap
       end
 
       def replace_with(node:)
-        "Cant replace root_node" if root?
+        return "Cant replace root_node" if root?
 
         index = parent.children.find_index(self)
         clon = node.clone_node
@@ -120,7 +120,7 @@ module InteractorsMindmap
 
         if children.any?
           children.each do |child|
-            nodes << child.search_node(data: data)
+            nodes << child.search_node(data:)
           end
         elsif self.data == data
           nodes << self

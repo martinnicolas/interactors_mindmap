@@ -12,13 +12,13 @@ module InteractorsMindmap
     end
 
     def self.perform(files_path:)
-      new(files_path: files_path).perform
+      new(files_path:).perform
     end
 
     def perform
       tree_node = InteractorsMindmap::TreeNode.new(root_data: "Interactors")
 
-      Dir[files_path].sort.each do |file|
+      Dir[files_path].each do |file|
         processed_interactors_tree_node = process_interactors_file(file)
 
         tree_node.add_node_child(node: processed_interactors_tree_node.root)

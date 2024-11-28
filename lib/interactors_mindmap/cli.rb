@@ -8,10 +8,11 @@ module InteractorsMindmap
       Usage:
         interactors_mindmap [options]
       Options:
-        --all   # Generate md and html file
-        --md    # Generate md file
-        --html  # Generate html file
-        --help  # Show this message
+        --all      # Generate md and html file
+        --md       # Generate md file
+        --html     # Generate html file
+        --version  # Show gem version
+        --help     # Show this message
     HELP_TEXT
 
     attr_reader :argv
