@@ -1,10 +1,10 @@
 # InteractorsMindmap
 
 [![Tests](https://github.com/martinnicolas/interactors_mindmap/actions/workflows/main.yml/badge.svg)](https://github.com/martinnicolas/interactors_mindmap/actions/workflows/main.yml)
-[![Gem Version](https://badge.fury.io/rb/interactors_mindmap.svg)](https://badge.fury.io/rb/interactors_mindmap)
+[![Gem Version](https://badge.fury.io/rb/interactors_mindmap.svg?icon=si%3Arubygems&icon_color=%23ef2929)](https://badge.fury.io/rb/interactors_mindmap)
 [![Gem Total Downloads](https://img.shields.io/gem/dt/interactors_mindmap)](https://rubygems.org/gems/interactors_mindmap)
 [![Wercker](https://img.shields.io/github/license/mashape/apistatus.svg)](https://opensource.org/licenses/MIT)
-[![Contributor Covenant](https://img.shields.io/badge/Contributor%20Covenant-2.1-4baaaa.svg)](code_of_conduct.md)
+[![Contributor Covenant](https://img.shields.io/badge/Contributor%20Covenant-2.1-4baaaa.svg)](CODE_OF_CONDUCT.md)
 
 This gem generates a mindmap chart to document your [interactors](https://github.com/collectiveidea/interactor) flow on your Ruby on Rails application.
 
