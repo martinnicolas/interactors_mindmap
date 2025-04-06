@@ -8,7 +8,7 @@ require_relative "interactors_mindmap/tree_node"
 
 # Module to parse file names and generate interactors docs
 module InteractorsMindmap
-  INTERACTORS_FILES_PATH = "**/app/interactors/*.rb"
+  INTERACTORS_FILES_PATH = "**/app/interactors/**/*.rb"
   NO_INTERACTORS_FOUND_MESSAGE = "No interactors found!"
   MD_FILE_GENERATED_MESSAGE = "Interactors .md file successfully generated!"
   HTML_FILE_GENERATED_MESSAGE = "Interactors .html file successfully generated!"
