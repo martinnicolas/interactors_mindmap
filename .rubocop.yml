@@ -27,3 +27,6 @@ Metrics/BlockLength:
 
 Lint/DuplicateBranch:
   Enabled: false
+
+Style/ClassAndModuleChildren:
+  Enabled: false

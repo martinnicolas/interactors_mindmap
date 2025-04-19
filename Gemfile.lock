@@ -1,7 +1,7 @@
 PATH
   remote: .
   specs:
-    interactors_mindmap (0.3.0)
+    interactors_mindmap (0.4.0)
 
 GEM
   remote: https://rubygems.org/

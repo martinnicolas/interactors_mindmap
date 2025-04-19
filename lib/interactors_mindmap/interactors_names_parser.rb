@@ -19,6 +19,8 @@ module InteractorsMindmap
       tree_node = InteractorsMindmap::TreeNode.new(root_data: "Interactors")
 
       Dir[files_path].each do |file|
+        next unless proper_interactor_file_name?(file)
+
         processed_interactors_tree_node = process_interactors_file(file)
 
         tree_node.add_node_child(node: processed_interactors_tree_node.root)
@@ -53,6 +55,12 @@ module InteractorsMindmap
 
       reset_inside_organize_block
       tree_node
+    end
+
+    def proper_interactor_file_name?(file)
+      filename = file.split("/").last
+      name_without_extension = filename.split(".").first
+      name_without_extension.split("_").last == "interactor"
     end
 
     def interactor_class_name_from_file(file)
